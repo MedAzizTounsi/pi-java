@@ -1,0 +1,36 @@
+/* Style de l'AnchorPane */
+.root {
+    -fx-background-image: url('bg1.jpeg'); /* Chemin vers votre image de fond */
+    -fx-background-size: cover;
+}
+
+/* Style de la ListView */
+#listViewService {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Couleur de fond avec opacité */
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Couleur du texte */
+}
+
+/* Style des boutons */
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px; /* Rembourrage */
+    -fx-border-radius: 5px; /* Bordure arrondie */
+}
+
+/* Style du bouton Actualiser */
+#actualiserButton {
+    -fx-background-color: #2196F3; /* Couleur de fond différente */
+}
+
+/* Style des boutons au survol */
+.button:hover {
+    -fx-background-color: #45a049; /* Couleur de fond au survol */
+}
+
+/* Style des boutons lorsqu'ils sont pressés */
+.button:pressed {
+    -fx-background-color: #1B5E20; /* Couleur de fond lorsqu'il est pressé */
+}

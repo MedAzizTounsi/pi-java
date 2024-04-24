@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AfficherTypeService">
+    <ListView fx:id="typeServiceListView" layoutX="14.0" layoutY="20.0" prefHeight="242.0" prefWidth="220.0">
+        <items>
+            <FXCollections fx:factory="observableArrayList" />
+        </items>
+    </ListView>
+    <Button layoutX="34.0" layoutY="281.0" onAction="#ajouterTypeService" text="Ajouter " />
+    <Button layoutX="141.0" layoutY="281.0" onAction="#modifierTypeService" text="Modifier" />
+    <Button layoutX="87.0" layoutY="336.0" onAction="#supprimerTypeService" text="Supprimer " />
+   <Button layoutX="276.0" layoutY="34.0" mnemonicParsing="false" text="Actualiser" />
+
+</AnchorPane>
